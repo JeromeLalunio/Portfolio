@@ -1,11 +1,17 @@
-import './App.css';
+import './App.scss';
 
 import './components/navbar/navbar';
 import NavBar from './components/navbar/navbar';
+import Hero from './components/hero/hero';
 
 function App() {
   return (
-    <NavBar/>
+    <body>
+      <div className = 'container'>
+        <NavBar />
+        <Hero />
+      </div>
+    </body>
   );
 }
 

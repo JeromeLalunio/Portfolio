@@ -1,0 +1,17 @@
+.hero-main{
+    height: 90vh;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text{
+    text-align: end;
+    .hello{
+        text-align: start;
+    }
+    .name{
+        font-size: 90px;
+    }
+}
