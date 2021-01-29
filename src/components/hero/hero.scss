@@ -1,17 +1,27 @@
 .hero-main{
     height: 90vh;
-    font-size: 30px;
+    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    .hero-background{
+        width: 500px;
+    }
 }
 
 .hero-text{
+    align-items: center;
+    color: #007ae6;
     text-align: end;
     .hello{
         text-align: start;
     }
     .name{
-        font-size: 90px;
+        font-size: 60px;
+    }
+    .hero-message{
+        font-weight: 300;
+        color: #000;
     }
 }
