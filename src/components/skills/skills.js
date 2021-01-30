@@ -15,8 +15,6 @@ export default function Skills(){
             ]} 
         />
 
-        <br />
-        
         <SkillCardContainer
             area = {"App Development"}
             arr = {[
@@ -24,13 +22,11 @@ export default function Skills(){
                 'Flutter', 'React Native',
             ]} 
         />
-         <br />
-        
+
         <SkillCardContainer
             area = {"Backend"}
             arr = {[
                 'Python', 'Node Js', 'Mongo DB',
-                
             ]} 
         />
 
