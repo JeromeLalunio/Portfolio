@@ -1,4 +1,9 @@
+@import './components/utils/colors';
+
 body {
     background-color: #f2f2f2;
+    h1{
+        color: $primary-color;
+    }
 }
 

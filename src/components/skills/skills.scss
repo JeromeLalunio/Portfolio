@@ -1,0 +1,28 @@
+@import '../utils/colors', '../utils/global_vars';
+
+.skills{
+    padding: 20px;
+    margin: 30px auto;
+    text-align: center;
+    max-width: 900px;
+
+    .skills-card-container{
+        margin: auto;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+
+        .skills-card{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            max-width: 300px;
+            width: 90%;
+            border-radius: 10px;
+            background-color: $white;
+            height: 40px;
+            box-shadow: $box-shadow;
+        }
+    }
+}

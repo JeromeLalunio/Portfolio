@@ -1,3 +1,5 @@
+@import '../utils/colors';
+
 .hero-main{
     height: 600px;
     font-size: 20px;
@@ -12,7 +14,7 @@
 
 .hero-text{
     align-items: center;
-    color: #007ae6;
+    color: $primary-color;
     text-align: end;
     .hello{
         text-align: start;
