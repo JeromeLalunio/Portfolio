@@ -1,8 +1,21 @@
-@import '../utils/global_vars';
+@import '../utils/colors', '../utils/global_vars';
 
 .projects{
     padding: 20px 20px 40px 20px;
-    background-color: #fff;
-    text-align: center;
     box-shadow: $box-shadow-light;
+    text-align: center;
+
+    .projects-card{
+        background-color: $white;
+        border-radius: 20px;
+        box-shadow: $box-shadow;
+        padding: 30px;
+        max-width: 700px;
+        margin: auto;
+
+        .projects-image{
+            border-radius: 20px;
+            width: 100%;
+        }
+    }
 }
