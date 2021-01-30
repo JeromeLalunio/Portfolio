@@ -17,5 +17,21 @@
             border-radius: 20px;
             width: 100%;
         }
+
+        .projects-link{
+            background-color: $primary-color;
+            text-decoration: none;
+            padding: 10px 50px;
+            color: $white;
+            border-radius: 20px;
+        }
+        .projects-link:hover{
+            background-color: $primary-color-accent;
+        }
+        .projects-link:active{
+            background-color: $white;
+            color: $primary-color;
+            border: 1px solid $primary-color;
+        }
     }
 }

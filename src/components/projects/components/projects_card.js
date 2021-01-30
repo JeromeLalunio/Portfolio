@@ -1,12 +1,12 @@
-import background from '../../../assets/project_sample.png';
 
-export default function ProjectCard(){
+
+export default function ProjectCard(props){
     return (
         <div className = 'projects-card'>
-            <img className = 'projects-image' src = {background} alt = 'project'/>
-            <h3>name</h3>
-            <p>Irure laborum aliqua sint nostrud.</p>
-            <button>Visit</button>
+            <img className = 'projects-image' src = {props.image} alt = 'project'/>
+            <h3>{props.name}</h3>
+            <p>{props.description}</p>
+            <a className = 'projects-link' target = '_blank' href = {props.link}>Visit</a>
         </div>
     );
 }
