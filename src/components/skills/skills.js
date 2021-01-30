@@ -11,7 +11,7 @@ export default function Skills(){
             arr = {[
                 'HTML', 'CSS', 'SCSS', 
                 'BootStrap', 'Tailwind css', 'JavaScript',
-                'React Js', 'Flutter', 
+                'React Js', 'Flutter',
             ]} 
         />
 
@@ -22,6 +22,15 @@ export default function Skills(){
             arr = {[
                 'Java', 'Kotlin', 'Dart', 
                 'Flutter', 'React Native',
+            ]} 
+        />
+         <br />
+        
+        <SkillCardContainer
+            area = {"Backend"}
+            arr = {[
+                'Python', 'Node Js', 'Mongo DB',
+                
             ]} 
         />
 

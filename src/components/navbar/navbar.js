@@ -5,7 +5,7 @@ export default function NavBar() {
     return <nav className = 'nav-bar'>
         <NavbarItem name = 'About'/>
         <NavbarItem name = 'Skills'/>
-        <NavbarItem name = 'Portfolio'/>
+        <NavbarItem name = 'Projects'/>
         <NavbarItem name = 'Contact'/>
     </nav>
 }
