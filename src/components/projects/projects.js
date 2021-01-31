@@ -8,7 +8,7 @@ import ProjectCard from './components/projects_card';
 export default function Projects(){
     return (
         <div className = 'projects'>
-            <h1>Featured Projects</h1>
+            <h1 className = 'projects-title'>Featured Projects</h1>
             <ProjectCard 
                 image = {background}
                 name = 'portfolio'
@@ -20,7 +20,7 @@ export default function Projects(){
                 image = {my_music_streamer}
                 name = 'My Music Streamer'
                 description = 'An online music Streamer made with react'
-                link = 'https://jeromelalunio.github.io/portfolio'
+                link = 'https://jeromelalunio.github.io/my-music-streamer'
             />
         </div>
     );

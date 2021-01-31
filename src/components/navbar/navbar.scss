@@ -1,6 +1,9 @@
 @import '../utils/global_vars';
 
-.nav-bar{
+#nav-bar{
+    transition: top 0.3s;
+    position: sticky;
+    top: 0;
     margin: auto;
     max-width: 1200px;
     font-size: medium;
