@@ -1,6 +1,6 @@
 @import '../utils/global_vars';
 
-#nav-bar{
+#navbar{
     transition: top 0.3s;
     position: sticky;
     top: 0;
@@ -14,4 +14,25 @@
     display: flex;
     justify-content: space-evenly;
     background-color: #fff;
+
+    .navbar-item{
+        text-transform: capitalize;
+
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+
+    .navbar-item:hover{
+        cursor: pointer;
+    }
+
+    .hero-main a#nav-hero{
+        background-color: #EEEEEE;
+    }
+
+    .active{
+        border-bottom: 1px solid #333;
+    }
 }

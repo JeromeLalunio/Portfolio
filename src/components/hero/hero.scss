@@ -1,6 +1,6 @@
 @import '../utils/colors';
 
-.hero-main{
+#hero{
     height: 600px;
     font-size: 20px;
     display: flex;
@@ -10,20 +10,21 @@
     .hero-background{
         width: 500px;
     }
+    
+    .hero-text{
+        align-items: center;
+        color: $primary-color;
+        text-align: end;
+        .hello{
+            text-align: start;
+        }
+        .name{
+            font-size: 60px;
+        }
+        .hero-message{
+            font-weight: 300;
+            color: #000;
+        }
+    }
 }
 
-.hero-text{
-    align-items: center;
-    color: $primary-color;
-    text-align: end;
-    .hello{
-        text-align: start;
-    }
-    .name{
-        font-size: 60px;
-    }
-    .hero-message{
-        font-weight: 300;
-        color: #000;
-    }
-}

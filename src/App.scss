@@ -1,6 +1,7 @@
 @import './components/utils/colors';
 
 body {
+    scroll-behavior: smooth;
     background-color: #f2f2f2;
     h1, h3{
         color: $primary-color;

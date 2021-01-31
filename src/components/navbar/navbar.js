@@ -11,22 +11,21 @@ export default function NavBar() {
 
     const handleScroll = debounce(() => {
         const currentPos = window.pageYOffset;
-        document.getElementById('nav-bar').style.top = previousPos - currentPos > 70 ? '0' : '-50px';
-        
+        document.getElementById('navbar').style.top = previousPos - currentPos > 70 ? '0' : '-50px';
         setPreviousPos(() => window.pageYOffset);
-    }, 100);
+    }, 60);
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
         console.log('called use effect');
-
         return() => window.removeEventListener('scroll', handleScroll);
     },[previousPos, handleScroll]);
       
-    return <nav id = 'nav-bar'>
-        <NavbarItem name = 'About'/>
-        <NavbarItem name = 'Skills'/>
-        <NavbarItem name = 'Projects'/>
-        <NavbarItem name = 'Contact'/>
+    return <nav id = 'navbar'>
+        <NavbarItem name = 'about'/>
+        <NavbarItem name = 'skills'/>
+        <NavbarItem name = 'hero'/>
+        <NavbarItem name = 'projects'/>
+        <NavbarItem name = 'contact'/>
     </nav>
 }

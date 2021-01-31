@@ -7,7 +7,7 @@ import ProjectCard from './components/projects_card';
 
 export default function Projects(){
     return (
-        <div className = 'projects'>
+        <div id = 'projects'>
             <h1 className = 'projects-title'>Featured Projects</h1>
             <ProjectCard 
                 image = {background}

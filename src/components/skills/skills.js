@@ -3,7 +3,7 @@ import './skills.scss';
 import SkillCardContainer from './components/skills_card_container';
 
 export default function Skills(){
-    return <div className = "skills">
+    return <div id = "skills">
         <h1>Skills</h1>
 
         <SkillCardContainer

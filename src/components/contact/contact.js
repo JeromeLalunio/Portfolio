@@ -5,7 +5,7 @@ import { FaFacebook, FaLinkedin, FaEnvelope } from 'react-icons/fa'
 
 export default function Contact(){
     return (
-        <div className = 'contact'>
+        <div id = 'contact'>
             <h2 className = 'contact-title'>Contact me via any of these links:</h2>
             <div className = 'contact-icons-container'>
                 <a href = 'https://www.facebook.com/profile.php?id=100044679731573' target = '_blank'>
