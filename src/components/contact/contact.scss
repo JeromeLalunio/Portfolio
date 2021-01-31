@@ -1,4 +1,4 @@
-@import '../utils/colors';
+@import '../utils/colors', '../utils/global_vars';
 
 #contact{
     background-color: $primary-color;
@@ -11,10 +11,17 @@
     }
 
     .contact-icons-container{
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 50px;
         justify-content: space-around;
-        width: 500px;
+        width: 90%;
+        max-width: 500px;
         margin: 30px auto;
+
+        @include mobile{
+            grid-template-columns: 1fr 1fr;
+        }
 
         *{
             color: $white;

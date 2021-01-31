@@ -1,38 +1,40 @@
-@import '../utils/global_vars';
+@import '../utils/colors', '../utils/global_vars';
 
 #navbar{
-    transition: top 0.3s;
-    position: sticky;
-    top: 0;
-    margin: auto;
-    max-width: 1200px;
-    font-size: medium;
-    padding: 15px;
-    border-bottom-left-radius: 65px;
-    border-bottom-right-radius: 65px;
     box-shadow: $box-shadow;
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #fff;
+    background-color: $primary-color;
+    position: sticky;
+    color: $white;
+    transition: top 0.3s;
 
-    .navbar-item{
-        text-transform: capitalize;
-
-        a{
-            text-decoration: none;
-            color: inherit;
+    .navbar-container{
+        top: 0;
+        margin: auto;
+        max-width: 1200px;
+        font-size: medium;
+        padding: 15px;
+        display: flex;
+        justify-content: space-evenly;
+    
+        .navbar-item{
+            text-transform: capitalize;
+    
+            a{
+                text-decoration: none;
+                color: inherit;
+            }
         }
-    }
-
-    .navbar-item:hover{
-        cursor: pointer;
-    }
-
-    .hero-main a#nav-hero{
-        background-color: #EEEEEE;
-    }
-
-    .active{
-        border-bottom: 1px solid #333;
+    
+        .navbar-item:hover{
+            cursor: pointer;
+        }
+    
+        .hero-main a#nav-hero{
+            background-color: #EEEEEE;
+        }
+    
+        .active{
+            border-bottom: 1px solid $white;
+        }
     }
 }

@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import './navbar.scss';
 import NavbarItem from './components/navbar_item';
@@ -21,11 +21,15 @@ export default function NavBar() {
         return() => window.removeEventListener('scroll', handleScroll);
     },[previousPos, handleScroll]);
       
-    return <nav id = 'navbar'>
-        <NavbarItem name = 'about'/>
-        <NavbarItem name = 'skills'/>
-        <NavbarItem name = 'hero'/>
-        <NavbarItem name = 'projects'/>
-        <NavbarItem name = 'contact'/>
-    </nav>
+    return (
+        <nav id = 'navbar'>
+            <nav className = 'navbar-container'>
+                <NavbarItem name = 'about'/>
+                <NavbarItem name = 'skills'/>
+                <NavbarItem name = 'hero'/>
+                <NavbarItem name = 'projects'/>
+                <NavbarItem name = 'contact'/>
+            </nav>
+        </nav>
+    );
 }

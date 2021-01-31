@@ -1,3 +1,13 @@
-$box-shadow: 0 0 5px 0 #cacaca;
 
+
+$box-shadow: 0 0 5px 0 #cacaca;
 $box-shadow-light: 0 0 2px 0 #cacaca;
+
+
+$mobile: 735px;
+
+@mixin mobile{
+    @media (max-width: #{$mobile}) {
+        @content;
+    }
+}

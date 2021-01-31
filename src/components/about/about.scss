@@ -1,11 +1,16 @@
-@import '../utils/global_vars';
+@import '../utils/colors', '../utils/global_vars';
 
 #about{
+    color: $white;
     padding: 20px 20px 40px 20px;
-    background-color: #fff;
+    background-color: $primary-color;
     text-align: center;
     box-shadow: $box-shadow-light;
     
+    .about-title{
+        color: $white;
+    }
+
     .about-message{
         line-height: 250%;
         width: 90%;

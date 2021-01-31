@@ -1,12 +1,12 @@
 import './contact.scss';
 
-import { FaFacebook, FaLinkedin, FaEnvelope } from 'react-icons/fa'
+import { FaFacebook, FaLinkedin, FaEnvelope, FaGithub } from 'react-icons/fa'
 
 
 export default function Contact(){
     return (
         <div id = 'contact'>
-            <h2 className = 'contact-title'>Contact me via any of these links:</h2>
+            <h2 className = 'contact-title'>Reach me via any of these links:</h2>
             <div className = 'contact-icons-container'>
                 <a href = 'https://www.facebook.com/profile.php?id=100044679731573' target = '_blank'>
                     <FaFacebook />
@@ -16,6 +16,9 @@ export default function Contact(){
                 </a>
                 <a href = 'https://mail.google.com/mail/?view=cm&fs=1&to=josejeromelalunio@gmail.com' target = '_blank'>
                     <FaEnvelope />
+                </a>
+                <a href = 'https://github.com/JeromeLalunio' target = '_blank'>
+                    <FaGithub />
                 </a>
             </div>
         </div>

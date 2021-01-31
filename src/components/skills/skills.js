@@ -30,5 +30,13 @@ export default function Skills(){
             ]} 
         />
 
+        <SkillCardContainer
+            area = {"Others"}
+            arr = {[
+                'Git', 'Github','Adobe Illustrator',
+                
+            ]} 
+        />
+
     </div>
 }
