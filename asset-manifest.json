@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.17dd35d8.chunk.css",
-    "main.js": "/portfolio/static/js/main.246c20fe.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.246c20fe.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.1ddd656e.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.1ddd656e.js.map",
-    "static/js/2.e071bb75.chunk.js": "/portfolio/static/js/2.e071bb75.chunk.js",
-    "static/js/2.e071bb75.chunk.js.map": "/portfolio/static/js/2.e071bb75.chunk.js.map",
-    "static/js/3.ea75def7.chunk.js": "/portfolio/static/js/3.ea75def7.chunk.js",
-    "static/js/3.ea75def7.chunk.js.map": "/portfolio/static/js/3.ea75def7.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.9dd216b7.chunk.css",
+    "main.js": "/portfolio/static/js/main.8a1f2768.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.8a1f2768.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.771776be.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.771776be.js.map",
+    "static/js/2.7cf15019.chunk.js": "/portfolio/static/js/2.7cf15019.chunk.js",
+    "static/js/2.7cf15019.chunk.js.map": "/portfolio/static/js/2.7cf15019.chunk.js.map",
+    "static/js/3.553f706c.chunk.js": "/portfolio/static/js/3.553f706c.chunk.js",
+    "static/js/3.553f706c.chunk.js.map": "/portfolio/static/js/3.553f706c.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.17dd35d8.chunk.css.map": "/portfolio/static/css/main.17dd35d8.chunk.css.map",
-    "static/js/2.e071bb75.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e071bb75.chunk.js.LICENSE.txt",
-    "static/media/background.8e48c6a3.png": "/portfolio/static/media/background.8e48c6a3.png"
+    "static/css/main.9dd216b7.chunk.css.map": "/portfolio/static/css/main.9dd216b7.chunk.css.map",
+    "static/js/2.7cf15019.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7cf15019.chunk.js.LICENSE.txt",
+    "static/media/background.3f599321.png": "/portfolio/static/media/background.3f599321.png",
+    "static/media/my_music_streamer01.da920813.png": "/portfolio/static/media/my_music_streamer01.da920813.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1ddd656e.js",
-    "static/js/2.e071bb75.chunk.js",
-    "static/css/main.17dd35d8.chunk.css",
-    "static/js/main.246c20fe.chunk.js"
+    "static/js/runtime-main.771776be.js",
+    "static/js/2.7cf15019.chunk.js",
+    "static/css/main.9dd216b7.chunk.css",
+    "static/js/main.8a1f2768.chunk.js"
   ]
 }
