@@ -21,6 +21,12 @@
         align-items: center;
         color: $primary-color;
         text-align: start;
+        margin-bottom: 100px;
+
+        @include mobile{
+            margin-bottom: 0;
+            text-align: center;
+        }
         
         .name{
             font-size: 60px;

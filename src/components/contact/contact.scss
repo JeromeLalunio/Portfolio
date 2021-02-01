@@ -10,20 +10,19 @@
         color: $white;
     }
 
+    .contact-title-email{
+        color: $white;
+    }
+
     .contact-icons-container{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 50px;
-        justify-content: space-around;
+        display: flex;
+        justify-content: space-evenly;
         width: 90%;
-        max-width: 500px;
+        max-width: 600px;
         margin: 30px auto;
 
-        @include mobile{
-            grid-template-columns: 1fr 1fr;
-        }
 
-        *{
+        a > *{
             color: $white;
             font-size: 30px;
         }

@@ -26,7 +26,6 @@ export default function NavBar() {
             <nav className = 'navbar-container'>
                 <NavbarItem name = 'about'/>
                 <NavbarItem name = 'skills'/>
-                <NavbarItem name = 'hero'/>
                 <NavbarItem name = 'projects'/>
                 <NavbarItem name = 'contact'/>
             </nav>
